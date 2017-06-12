@@ -1,0 +1,29 @@
+<div class="blog-section">
+	{{# each data.posts.results}}
+		<div data-ks-editable="{{#if ../user}}{{adminEditableUrl ../../user _id}}{{/if}}" class="blog-post-item">
+			<h2>
+				<a href="{{postUrl slug}}">{{{title}}}</a>
+			</h2>
+
+			{{#if author.name.first}}
+                <p class="blog-post-author">
+                    by {{author.name.first}}
+                </p>
+            {{/if}}
+
+			{{#if image}}
+				<img src="{{{cloudinaryUrl image width=160 height=160 crop='fit' }}}" class="img pull-right">
+			{{/if}}
+
+			<p>{{{content.brief}}}</p>
+
+			{{#if content.extended}}
+                <p class="blog-post-read-more">
+					<a href="{{postUrl slug}}">Read more...</a>
+				</p>
+			{{/if}}
+		</div>
+	{{/each}}
+</div>
+
+{{>pagination}}

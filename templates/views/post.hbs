@@ -6,10 +6,6 @@
 		{{#if author.name.first}}by {{author.name.first}}{{/if}}
 	</h5>
 	<div class="post">
-		{{#if data.post.image}}
-			<img src="{{{cloudinaryUrl data.post.image width=750 height=450 crop='fit' }}}" class="img-responsive">
-		{{/if}}
-
 		<p>{{{data.post.content.extended}}}</p>
 	</div>
 </article>

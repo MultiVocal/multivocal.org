@@ -12,7 +12,8 @@ Website for the Multivocal project.
 
 ## Guide 🤓
 
-**How to set up locally:**
+**How to set up locally**
+
 - Clone project, then run ```npm install``` to install.
 - Create a file called _.env_ in the root and write ```COOKIE_SECRET=whateverYouWant``` in it.
 - Make sure Mongo is running (run ```mongod```)
@@ -20,6 +21,7 @@ Website for the Multivocal project.
 
 
 **Writing a new blog post**
+
 - Go to http://multivocal.org/keystone and log in with your user and password
 - Create a new Post
 - *State* should be set to Published (however, if you're not ready to publish, you can use the Draft option)
@@ -31,6 +33,7 @@ Website for the Multivocal project.
 
 
 **Change the static pages**
+
 In order to change the static pages (Home, About, Contact) you need to edit the HTML.
 The views can be found in _templates --> views_ and then the page you want to edit (e.g. _about.hbs_).
 - Encapsulate text paragraphs in ```<p></p>```

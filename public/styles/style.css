@@ -212,6 +212,9 @@ footer {
   .single-blog-post-item ul li, .single-blog-post-item ol li {
     margin-left: 1.25rem; }
 
+.single-blog-post-item img {
+  max-width: 100%; }
+
 .email-gif {
   width: 70px;
   display: block;

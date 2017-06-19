@@ -1,11 +1,10 @@
-
-<article>
+<article class="single-blog-post-item">
 	<h1>{{data.post.title}}</h1>
 	<h5>
 		{{{categoryList data.post.categories prefix="Posted in "}}}
 		{{#if author.name.first}}by {{author.name.first}}{{/if}}
 	</h5>
-	<div class="post">
+	<div class="single-blog-post-item-content">
 		<p>{{{data.post.content.extended}}}</p>
 	</div>
 </article>

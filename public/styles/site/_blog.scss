@@ -6,3 +6,22 @@
         margin: 0.25rem 0;
     }
 }
+
+.single-blog-post-item {
+
+    strong {
+        font-weight: bold;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    ul, ol {
+        list-style: initial;
+
+        li {
+            margin-left: 1.25rem;
+        }
+    }
+}

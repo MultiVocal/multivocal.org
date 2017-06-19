@@ -201,6 +201,17 @@ footer {
     font-size: 12px;
     margin: 0.25rem 0; }
 
+.single-blog-post-item strong {
+  font-weight: bold; }
+
+.single-blog-post-item em {
+  font-style: italic; }
+
+.single-blog-post-item ul, .single-blog-post-item ol {
+  list-style: initial; }
+  .single-blog-post-item ul li, .single-blog-post-item ol li {
+    margin-left: 1.25rem; }
+
 .email-gif {
   width: 70px;
   display: block;

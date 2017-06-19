@@ -32,6 +32,8 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+
+	'wysiwyg images' : true
 });
 
 // Load your project's Models

@@ -36,19 +36,21 @@
 		<div class="page-content">
 
 			<header>
-				<div class="header-branding">
-					<a href="/"><span class="secondary-color">></span> multivocal</a>
-				</div>
+				<div class="header-content">
+					<div class="header-branding">
+						<a href="/"><img src="images/multivocal_logo.svg" alt="Multivocal logo" class="header-branding-image"></a>
+					</div>
 
-				<nav class="header-navigation">
-					<ul>
-						{{# each navLinks}}
-							<li {{#ifeq ../section key}}class="active header-navigation-item"{{else}}class="header-navigation-item"{{/ifeq}}>
-								<a href="{{ href }}">{{ label }}</a>
-							</li>
-						{{/each}}
-					</ul>
-				</nav>
+					<nav class="header-navigation">
+						<ul>
+							{{# each navLinks}}
+								<li {{#ifeq ../section key}}class="active header-navigation-item"{{else}}class="header-navigation-item"{{/ifeq}}>
+									<a href="{{ href }}">{{ label }}</a>
+								</li>
+							{{/each}}
+						</ul>
+					</nav>
+				</div>
 			</header>
 
 			<main>
